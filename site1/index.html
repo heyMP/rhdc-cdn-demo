@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Site 1</h1>
+    <script type="importmap">
+      {
+        "imports": {
+          "http://localhost:8080/cdn/node_modules/rh-header-entry.js": "/site1/node_modules/rh-header-entry.js"
+        }
+      }
+    </script>
+    <script type="module" src="http://localhost:8080/site1/node_modules/rh-header-entry.js"></script>
+    <script type="module" src="http://localhost:8080/adobeTarget.js"></script>
+  </body>
+</html>
